@@ -32,7 +32,7 @@ const CropRecommendationPage = () => {
 
   const fetchAvailableStates = async () => {
     try {
-      const baseUrl = import.meta.env.VITE_API_URL || "http://localhost:8000";
+      const baseUrl = `https://farmer-assist-backend.onrender.com/api`;
       const response = await fetch(
         `${baseUrl}/api/available-states`
       );

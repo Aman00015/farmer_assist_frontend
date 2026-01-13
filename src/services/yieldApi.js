@@ -1,4 +1,4 @@
-const API_BASE_URL = (import.meta.env.VITE_API_URL || 'http://localhost:8000') + '/api';
+const API_BASE_URL = `https://farmer-assist-backend.onrender.com/api`
 
 export const yieldApi = {
   async healthCheck() {
