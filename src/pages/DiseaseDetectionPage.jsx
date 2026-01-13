@@ -25,9 +25,9 @@ const DiseaseDetection = () => {
 
   const checkModelStatus = async () => {
     try {
-      const baseUrl = import.meta.env.VITE_API_URL || "http://localhost:8000";
+      const baseUrl = `https://farmer-assist-backend.onrender.com/api`;
       const response = await fetch(
-        `${baseUrl}/api/disease-detection/status`
+        `${baseUrl}/disease-detection/status`
       );
       const data = await response.json();
       setModelStatus(data.is_loaded);
@@ -105,9 +105,9 @@ const DiseaseDetection = () => {
       const formData = new FormData();
       formData.append("image", selectedFile);
 
-      const baseUrl = import.meta.env.VITE_API_URL || "http://localhost:8000";
+      const baseUrl = `https://farmer-assist-backend.onrender.com/api`;
       const response = await fetch(
-        `${baseUrl}/api/disease-detection/predict`,
+        `${baseUrl}/disease-detection/predict`,
         {
           method: "POST",
           body: formData,

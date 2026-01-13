@@ -34,7 +34,7 @@ const CropRecommendationPage = () => {
     try {
       const baseUrl = `https://farmer-assist-backend.onrender.com/api`;
       const response = await fetch(
-        `${baseUrl}/api/available-states`
+        `${baseUrl}/available-states`
       );
       const data = await response.json();
       if (data.states) {
@@ -60,9 +60,9 @@ const handleSubmit = async (e) => {
   setLoading(true);
 
   try {
-    const baseUrl = import.meta.env.VITE_API_URL || "http://localhost:8000";
+      const baseUrl = `https://farmer-assist-backend.onrender.com/api`;
     const response = await fetch(
-      `${baseUrl}/api/recommend-crops`,
+      `${baseUrl}/recommend-crops`,
       {
         method: "POST",
         headers: {
