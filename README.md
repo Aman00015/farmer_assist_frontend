@@ -1,6 +1,6 @@
 # FarmAssist - Farmer Assistance Platform
 
-![FarmAssist Banner](./public/farmassist/main.png)
+![FarmAssist Banner](./src/public/images/main.png)
 
 > **AI-powered agricultural platform with ML-driven crop insights and disease detection**
 
@@ -47,9 +47,9 @@ The platform integrates **Google Gemini AI** for intelligent chatbot assistance,
 
 | Dashboard | Crop Prediction | Disease Detection |
 |-----------|-----------------|-------------------|
-| ![Dashboard](./public/farmassist/main.png) | ![Yield](./public/farmassist/yeild.png) | ![Disease](./public/farmassist/disease.png) |
+| ![Dashboard](./src/public/images/main.png) | ![Yield](./src/public/images/yeild.png) | ![Disease](./src/public/images/disease.png) |
 
-*(Note: Please ensure the images `main.png`, `yeild.png`, and `disease.png` are placed in the `public/farmassist/` directory)*
+*(Note: Please ensure the images `main.png`, `yeild.png`, and `disease.png` are placed in the `src/public/images/` directory)*
 
 ## 📦 Installation & Setup
 
@@ -115,7 +115,6 @@ The application will be available at `http://localhost:5173`.
 
 ## 🏆 Impact
 
-- **1000+** farmers actively using the platform.
 - **92%** accuracy in crop yield predictions.
 - **89%** accuracy in plant disease detection.
 - **30%** reported improvement in crop selection decisions.
@@ -126,5 +125,3 @@ The application will be available at `http://localhost:5173`.
 - **Category**: AgriTech / Machine Learning
 - **Year**: 2025
 
----
-*Built for the Future of Farming via SJCEM*
