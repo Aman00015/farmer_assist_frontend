@@ -1,6 +1,6 @@
 # FarmAssist - Farmer Assistance Platform
 
-![FarmAssist Banner](public/farmassist/main.png)
+![FarmAssist Banner](images/main.png)
 
 > **AI-powered agricultural platform with ML-driven crop insights and disease detection**
 
@@ -47,9 +47,9 @@ The platform integrates **Google Gemini AI** for intelligent chatbot assistance,
 
 | Dashboard | Crop Prediction | Disease Detection |
 |-----------|-----------------|-------------------|
-| ![Dashboard](public/farmassist/main.png) | ![Yield](public/farmassist/yeild.png) | ![Disease](public/farmassist/disease.png) |
+| ![Dashboard](images/main.png) | ![Yield](images/yeild.png) | ![Disease](images/disease.png) |
 
-*(Note: Please ensure the images `main.png`, `yeild.png`, and `disease.png` are placed in the `public/farmassist/` directory)*
+*(Note: Please ensure the images `main.png`, `yeild.png`, and `disease.png` are placed in the `images/` directory)*
 
 ## 📦 Installation & Setup
 
